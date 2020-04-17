@@ -17,7 +17,7 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  array.each do |char|
+  array.each_with_index do |char|
     puts "Hello #{char.capitalize}!"
   end
 end
