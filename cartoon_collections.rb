@@ -11,7 +11,8 @@
 #end
 
 def greet_characters(array)
-  array.each do |item|
+  array.each do |char|
+    
 
 end
 
