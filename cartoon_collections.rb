@@ -18,6 +18,6 @@ end
 
 def list_dwarves(array)
   array.each_with_index do |item, index|
-    puts "Hello #{char.capitalize}!"
+    puts "#{index}. #{char.capitalize}!"
   end
 end
