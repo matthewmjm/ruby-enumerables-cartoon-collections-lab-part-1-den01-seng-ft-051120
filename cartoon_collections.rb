@@ -12,7 +12,7 @@
 
 def greet_characters(array)
   array.each do |char|
-    puts "Hello #()!"
+    puts "Hello #{char}!"
   end
 end
 
